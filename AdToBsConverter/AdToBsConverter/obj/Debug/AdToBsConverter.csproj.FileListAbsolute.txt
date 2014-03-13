@@ -1,0 +1,4 @@
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverter\bin\Debug\AdToBsConverter.dll
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverter\bin\Debug\AdToBsConverter.pdb
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverter\obj\Debug\AdToBsConverter.dll
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverter\obj\Debug\AdToBsConverter.pdb
