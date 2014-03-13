@@ -1,0 +1,11 @@
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\bin\Debug\AdToBsConverterTest.exe.config
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\bin\Debug\AdToBsConverterTest.exe
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\bin\Debug\AdToBsConverterTest.pdb
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\bin\Debug\AdToBsConverter.dll
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\bin\Debug\AdToBsConverter.pdb
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\obj\Debug\AdToBsConverterTest.csprojResolveAssemblyReference.cache
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\obj\Debug\AdToBsConverterTest.Form1.resources
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\obj\Debug\AdToBsConverterTest.Properties.Resources.resources
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\obj\Debug\AdToBsConverterTest.csproj.GenerateResource.Cache
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\obj\Debug\AdToBsConverterTest.exe
+E:\Github Projects\NepaliDateConverter\AdToBsConverter\AdToBsConverterTest\obj\Debug\AdToBsConverterTest.pdb
