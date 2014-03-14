@@ -11,7 +11,13 @@ namespace AdToBsConverter
         private static IDictionary<int, int[]> bs;
 
         private static IDictionary<int, string> months;
-
+        /// <summary>
+        /// To check given day, month and year are with in range or not
+        /// </summary>
+        /// <param name="yy">Supply year in between 2000-2089 </param>
+        /// <param name="mm">Supply month in between 1 -12</param>
+        /// <param name="dd">Supply date between 1 - 31</param>
+        /// <returns></returns>
         private static bool IsRangeNep(int yy, int mm, int dd)
         {
             if (!IsYearRangeNep(yy))
@@ -148,12 +154,20 @@ namespace AdToBsConverter
             months.Add(12, "Chaitra");
 
         }
-
+        /// <summary>
+        /// Convert Nepali Month int to String Month
+        /// </summary>
+        /// <param name="m">supply month between 1 - 12</param>
+        /// <returns>return Nepali month string</returns>
         private static string GetNepaliMonth(int m)
         {
             return months[m];
         }
-
+        /// <summary>
+        /// Convert Nepali day int to String day
+        /// </summary>
+        /// <param name="d">supply month between 1 - 7</param>
+        /// <returns>return day string</returns>       
         private static string GetDayOfWeek(int d)
         {
             string day = "";
@@ -192,6 +206,11 @@ namespace AdToBsConverter
         #endregion
 
         #region public
+        /// <summary>
+        /// To check given year is Leap or Not
+        /// </summary>
+        /// <param name="year">Year To check leap</param>
+        /// <returns>True for Leap year and False for Non Leap year</returns>
         public static bool IsLeapYear(int year)
         {
             int a = year;
@@ -219,13 +238,22 @@ namespace AdToBsConverter
                 }
             }
         }
-
+        /// <summary>
+        /// To get list of Month
+        /// </summary>
+        /// <returns>Return dictionary of Months</returns>
         public static IDictionary<int, string> GetMonths()
         {
             if (bs == null) InitializeData();
             return months;
         }
-
+        /// <summary>
+        /// Range of English Date
+        /// </summary>
+        /// <param name="yy">Year</param>
+        /// <param name="mm">Month</param>
+        /// <param name="dd">Day</param>
+        /// <returns>If in range then true</returns>
         public static bool IsRangeEng(int yy, int mm, int dd)
         {
             if (yy < 1944 || yy > 2033)
@@ -255,12 +283,22 @@ namespace AdToBsConverter
             }
             return true;
         }
-
+        /// <summary>
+        /// Convert Eng Date to Nepali Date
+        /// </summary>
+        /// <param name="dateTime">DateTime to Convert</param>
+        /// <returns>Corresponding Nepali Date</returns>
         public static NepDate EngToNep(DateTime dateTime)
         {
             return EngToNep(dateTime.Year, dateTime.Month, dateTime.Day);
         }
-
+        /// <summary>
+        /// Convert Eng Date To Nepali Date
+        /// </summary>
+        /// <param name="yy">Year</param>
+        /// <param name="mm">Month</param>
+        /// <param name="dd">Day</param>
+        /// <returns>NepaliDate </returns>
         public static NepDate EngToNep(int yy, int mm, int dd)
         {
             if (bs == null) InitializeData();
@@ -350,12 +388,22 @@ namespace AdToBsConverter
                 return nepDate;
             }
         }
-
+        /// <summary>
+        /// Convert Nep Date To Eng Date
+        /// </summary>
+        /// <param name="dateTime">Nepali Date </param>
+        /// <returns>English Datetime</returns>
         public static DateTime NepToEng(NepDate dateTime)
         {
             return NepToEng(dateTime.Year, dateTime.Month, dateTime.Day);
         }
-
+        /// <summary>
+        /// Nep Date to Eng Date
+        /// </summary>
+        /// <param name="yy">Year</param>
+        /// <param name="mm">Month</param>
+        /// <param name="dd">Day</param>
+        /// <returns>Return Eng Date</returns>
         public static DateTime NepToEng(int yy, int mm, int dd)
         {
 
