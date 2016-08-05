@@ -140,13 +140,13 @@ namespace AdToBsConverter
                      };
 
             months = new Dictionary<int, string>();
-            months.Add(1, "Baishak");
+            months.Add(1, "Baisakh");
             months.Add(2, "Jestha");
-            months.Add(3, "Ashad");
-            months.Add(4, "Shrawn");
+            months.Add(3, "Asadh");
+            months.Add(4, "Shrawan");
             months.Add(5, "Bhadra");
             months.Add(6, "Ashwin");
-            months.Add(7, "kartik");
+            months.Add(7, "Kartik");
             months.Add(8, "Mangshir");
             months.Add(9, "Poush");
             months.Add(10, "Magh");
@@ -411,7 +411,7 @@ namespace AdToBsConverter
             int def_eyy = 1943;
             int def_emm = 4;
             int def_edd = 14 - 1;        // init english date.
-            int def_nyy = 2000; int def_nmm = 1; int def_ndd = 1;        // equivalent nepali date.
+            int def_nyy = 2000;       // equivalent nepali date.
             int total_eDays = 0; int total_nDays = 0; int a = 0; int day = 4 - 1;        // initializations...
             int m = 0; int y = 0; int i = 0;
             int j = 0;
@@ -485,7 +485,7 @@ namespace AdToBsConverter
             }
         }
         #endregion
-    };
+    }
     public class NepDate
     {
         public int Year { get; set; }
